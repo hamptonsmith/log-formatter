@@ -1,0 +1,23 @@
+{
+  "name": "@shieldsbetter/log-formatter",
+  "version": "0.0.1",
+  "description": "A pleasing log formatter with line-wrap and indentation.",
+  "repository": "git@github.com:hamptonsmith/log-formatter.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/tests.js"
+  },
+  "author": "Hampton Smith",
+  "license": "ISC",
+  "dependencies": {
+    "linewrap": "^0.2.1",
+    "merge": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "diff": "^2.2.3",
+    "mocha": "^2.5.3",
+    "read-file-relative": "^1.2.0"
+  }
+}
